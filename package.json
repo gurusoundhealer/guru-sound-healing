@@ -1,0 +1,12 @@
+{
+  "name": "guru-sound-saas",
+  "version": "1.0.0",
+  "description": "Gurulakshmi Sound Healing & Space Cleansing SaaS Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["sound-healing", "space-cleansing", "acoustic-resonance"],
+  "author": "Gurulakshmi",
+  "license": "MIT"
+}

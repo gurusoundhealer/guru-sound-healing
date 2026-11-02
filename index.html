@@ -1,0 +1,1810 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <title>Gurulakshmi · Sound Healing & Space Cleansing</title>
+  <meta name="description" content="Harmonizing Environments, Elevating Vibrations. Certified sound-based space cleansing and resonant sound journeys by Gurulakshmi." />
+  <meta name="keywords" content="Gurulakshmi, Sound Healing, Space Cleansing, Sound Bath, Tibetan Singing Bowls, Koshi Chimes, Gong Healing, Acoustic Vibrations, Chennai Sound Healing, Corporate Wellness" />
+  <meta name="author" content="Gurulakshmi" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph / Facebook / WhatsApp Preview Meta Tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Gurulakshmi · Sound Healing & Space Cleansing" />
+  <meta property="og:description" content="Harmonizing Environments, Elevating Vibrations. Modern sound-based space cleansing and resonant sound journeys." />
+  <meta property="og:site_name" content="Gurulakshmi Sound Healing" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Gurulakshmi · Sound Healing & Space Cleansing" />
+  <meta name="twitter:description" content="Harmonizing Environments, Elevating Vibrations. Certified sound-based space cleansing and resonant sound journeys." />
+
+  <!-- Schema.org JSON-LD Structured Data for Google Indexing -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HealthAndBeautyBusiness",
+    "name": "Gurulakshmi Sound Healing & Space Cleansing",
+    "description": "Certified Sound Healer and Space Cleansing Practitioner transforming dense, stagnant environments into sanctuaries of peace and vitality.",
+    "telephone": "+917010333900",
+    "email": "gurulakshmi.anandkumar@gmail.com",
+    "sameAs": [
+      "https://instagram.com/guru_sound_healer"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chennai",
+      "addressRegion": "Tamil Nadu",
+      "addressCountry": "IN"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Gurulakshmi",
+      "jobTitle": "Sound Healer & Space Cleansing Practitioner"
+    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Residential Clearing"
+      },
+      {
+        "@type": "Offer",
+        "name": "Corporate & Office Cleansing"
+      },
+      {
+        "@type": "Offer",
+        "name": "Emotional Reset Cleansing"
+      },
+      {
+        "@type": "Offer",
+        "name": "Routine Maintenance"
+      }
+    ]
+  }
+  </script>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'system-ui', '-apple-system', 'sans-serif'],
+            display: ['"Space Grotesk"', 'sans-serif'],
+          },
+          colors: {
+            // Enhanced 6-Color Natural Palette (Warm, Organic, Rich Light Tones)
+            oat: {
+              50: '#FAF8F3',
+              100: '#F4EFE6',
+              200: '#ECE5D8',
+              300: '#E1D7C5',
+              400: '#CFC2AC',
+              500: '#B5A48B',
+            },
+            sage: {
+              50: '#F2F7F4',
+              100: '#E3ECE6',
+              200: '#C9DCD0',
+              500: '#527764',
+              700: '#345243',
+              800: '#23392E',
+              900: '#17271F',
+            },
+            brass: {
+              100: '#F6EEDF',
+              200: '#EADBBF',
+              500: '#A47D42',
+              600: '#8A642E',
+              700: '#715021',
+            },
+            terracotta: {
+              50: '#FAF4F1',
+              100: '#F5E8E2',
+              200: '#EBD2C7',
+              500: '#BD6B53',
+              700: '#8C4632',
+            },
+            // Color 5: Midnight Indigo / Meditative Lotus (Deep Subconscious & Theta Brainwaves)
+            indigoZen: {
+              50: '#F0F2F8',
+              100: '#E2E6F2',
+              200: '#C8CFE6',
+              500: '#576690',
+              700: '#384469',
+              800: '#26304E',
+              900: '#1A2136',
+            },
+            // Color 6: Rose Quartz Blush (Heart Chakra & Compassionate Emotional Healing)
+            roseBlush: {
+              50: '#FCF5F5',
+              100: '#F8EAEB',
+              200: '#F0D5D7',
+              500: '#C4747B',
+              600: '#A85A61',
+              700: '#873F46',
+            },
+            charcoal: {
+              900: '#1C211F',
+              800: '#2C3330',
+              700: '#3F4945',
+              600: '#5A6661',
+              500: '#7B8883',
+            }
+          },
+          animation: {
+            'float-slow': 'floatSlow 6s ease-in-out infinite',
+            'pulse-ring': 'pulseRing 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            'spin-slow': 'spin 30s linear infinite',
+            'wave-dance': 'waveDance 1.2s ease-in-out infinite alternate',
+          },
+          keyframes: {
+            floatSlow: {
+              '0%, 100%': { transform: 'translateY(0px)' },
+              '50%': { transform: 'translateY(-8px)' },
+            },
+            pulseRing: {
+              '0%': { transform: 'scale(0.95)', opacity: '0.8' },
+              '50%': { transform: 'scale(1.08)', opacity: '0.3' },
+              '100%': { transform: 'scale(0.95)', opacity: '0.8' },
+            },
+            waveDance: {
+              '0%': { height: '4px' },
+              '100%': { height: '24px' },
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      background-color: #F4EFE6;
+      color: #2C3330;
+      font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    }
+
+    ::selection {
+      background: #C9DCD0;
+      color: #17271F;
+    }
+
+    /* 6 Themed Card Variations */
+    .card-oat {
+      background: #FAF8F3;
+      border: 1px solid rgba(44, 51, 48, 0.08);
+      box-shadow: 0 4px 20px -2px rgba(44, 51, 48, 0.04);
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .card-oat:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 14px 30px -4px rgba(44, 51, 48, 0.08);
+      border-color: rgba(44, 51, 48, 0.15);
+    }
+    
+    .card-sage {
+      background: #EAF1ED;
+      border: 1px solid rgba(82, 119, 100, 0.15);
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .card-sage:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 14px 30px -4px rgba(82, 119, 100, 0.12);
+      border-color: rgba(82, 119, 100, 0.3);
+    }
+
+    .card-brass {
+      background: #F7F1E6;
+      border: 1px solid rgba(164, 125, 66, 0.15);
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .card-brass:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 14px 30px -4px rgba(164, 125, 66, 0.12);
+      border-color: rgba(164, 125, 66, 0.3);
+    }
+
+    .card-terracotta {
+      background: #F8EFEA;
+      border: 1px solid rgba(189, 107, 83, 0.15);
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .card-terracotta:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 14px 30px -4px rgba(189, 107, 83, 0.12);
+      border-color: rgba(189, 107, 83, 0.3);
+    }
+
+    .card-indigo {
+      background: #EAEFF6;
+      border: 1px solid rgba(87, 102, 144, 0.18);
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .card-indigo:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 14px 30px -4px rgba(87, 102, 144, 0.15);
+      border-color: rgba(87, 102, 144, 0.35);
+    }
+
+    .card-rose {
+      background: #F8EDEE;
+      border: 1px solid rgba(196, 116, 123, 0.18);
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .card-rose:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 14px 30px -4px rgba(196, 116, 123, 0.15);
+      border-color: rgba(196, 116, 123, 0.35);
+    }
+
+    /* Page View Transitions */
+    .page-view {
+      display: none;
+      animation: pageGlide 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+    .page-view.active {
+      display: block;
+    }
+
+    @keyframes pageGlide {
+      from { opacity: 0; transform: translateY(14px) scale(0.99); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    .glass-nav-warm {
+      background: rgba(244, 239, 230, 0.94);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid rgba(44, 51, 48, 0.08);
+    }
+
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #F4EFE6; }
+    ::-webkit-scrollbar-thumb { background: #D5CDC0; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #527764; }
+  </style>
+</head>
+
+<body class="font-sans antialiased text-charcoal-800 bg-oat-100 min-h-screen relative flex flex-col justify-between selection:bg-sage-200 selection:text-sage-900">
+
+  <!-- ==================== RESPONSIVE MULTI-PAGE NAVBAR ==================== -->
+  <header class="fixed top-0 inset-x-0 z-50 glass-nav-warm transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 h-20 flex items-center justify-between">
+      
+      <!-- Brand Logo with animated subtle breathing aura -->
+      <a href="#home" onclick="navigate('home')" class="flex items-center gap-3.5 group">
+        <div class="relative w-11 h-11 flex items-center justify-center">
+          <div class="absolute inset-0 rounded-full bg-sage-500/20 animate-pulse-ring"></div>
+          <div class="relative w-10 h-10 rounded-full bg-sage-100 border border-sage-500/30 flex items-center justify-center text-sage-800 font-serif text-2xl font-bold shadow-sm group-hover:scale-105 group-hover:bg-sage-200 transition-all">
+            ॐ
+          </div>
+        </div>
+        <div>
+          <span class="font-serif text-2xl sm:text-3xl font-bold text-charcoal-900 tracking-tight block leading-none group-hover:text-sage-800 transition-colors">Gurulakshmi</span>
+          <span class="text-[10px] sm:text-[11px] tracking-[0.2em] uppercase font-semibold text-brass-600 block mt-1">Sound Healing · Space Cleansing</span>
+        </div>
+      </a>
+
+      <!-- Desktop Multi-Page Nav Links with Active Indicator -->
+      <nav class="hidden lg:flex items-center gap-1 bg-oat-200/70 p-1.5 rounded-full border border-charcoal-900/5 shadow-inner">
+        <button onclick="navigate('home')" id="nav-btn-home" class="nav-tab px-4 py-2 rounded-full text-xs font-semibold tracking-wide transition-all bg-sage-800 text-white shadow-sm">Home</button>
+        <button onclick="navigate('practitioner')" id="nav-btn-practitioner" class="nav-tab px-4 py-2 rounded-full text-xs font-medium text-charcoal-700 hover:text-charcoal-900 hover:bg-oat-100/50 transition-all">The Practitioner</button>
+        <button onclick="navigate('practice')" id="nav-btn-practice" class="nav-tab px-4 py-2 rounded-full text-xs font-medium text-charcoal-700 hover:text-charcoal-900 hover:bg-oat-100/50 transition-all">The Practice</button>
+        <button onclick="navigate('instruments')" id="nav-btn-instruments" class="nav-tab px-4 py-2 rounded-full text-xs font-medium text-charcoal-700 hover:text-charcoal-900 hover:bg-oat-100/50 transition-all flex items-center gap-1.5">
+          <span>10 Instruments</span>
+          <span class="w-1.5 h-1.5 rounded-full bg-brass-500 animate-pulse"></span>
+        </button>
+        <button onclick="navigate('services')" id="nav-btn-services" class="nav-tab px-4 py-2 rounded-full text-xs font-medium text-charcoal-700 hover:text-charcoal-900 hover:bg-oat-100/50 transition-all">Services & Formats</button>
+        <button onclick="navigate('science')" id="nav-btn-science" class="nav-tab px-4 py-2 rounded-full text-xs font-medium text-charcoal-700 hover:text-charcoal-900 hover:bg-oat-100/50 transition-all">The Science</button>
+      </nav>
+
+      <!-- Action Button & Sound Active Wave & Mobile Hamburger -->
+      <div class="flex items-center gap-3">
+        
+        <!-- Live Sound Playing Indicator Pill -->
+        <div id="nav-audio-indicator" class="hidden items-center gap-2 px-3 py-1.5 rounded-full bg-sage-100 border border-sage-500/25 text-sage-800 text-xs font-medium animate-pulse">
+          <span class="flex items-end gap-0.5 h-3">
+            <span class="w-0.5 bg-sage-700 animate-wave-dance"></span>
+            <span class="w-0.5 bg-sage-700 animate-wave-dance" style="animation-delay: 200ms"></span>
+            <span class="w-0.5 bg-sage-700 animate-wave-dance" style="animation-delay: 400ms"></span>
+          </span>
+          <span id="nav-freq-text" class="text-[11px] font-mono font-semibold">432Hz</span>
+        </div>
+
+        <button onclick="navigate('contact')" class="hidden sm:flex px-5 py-2.5 rounded-full bg-sage-800 hover:bg-sage-900 text-white text-xs font-semibold tracking-wider uppercase transition-all shadow-sm items-center gap-2 hover:scale-[1.02]">
+          <span>Book Session</span>
+          <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+        </button>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button onclick="toggleMobileMenu()" class="lg:hidden p-2.5 rounded-full bg-oat-200 border border-charcoal-900/10 text-charcoal-800 hover:text-charcoal-900 focus:outline-none" aria-label="Toggle menu">
+          <i data-lucide="menu" id="menu-icon" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Slide-Down Drawer (Responsive for all phones & tablets) -->
+    <div id="mobile-menu" class="hidden lg:hidden bg-oat-100 border-b border-charcoal-900/10 px-6 py-6 transition-all shadow-lg">
+      <div class="flex flex-col gap-2.5 font-medium text-sm">
+        <button onclick="navigate('home'); toggleMobileMenu()" class="text-left px-4 py-2.5 rounded-xl bg-oat-200/70 font-semibold text-charcoal-900 flex items-center justify-between">
+          <span>1. Home Overview</span> <i data-lucide="chevron-right" class="w-4 h-4 text-charcoal-500"></i>
+        </button>
+        <button onclick="navigate('practitioner'); toggleMobileMenu()" class="text-left px-4 py-2.5 rounded-xl hover:bg-oat-200/50 text-charcoal-700 flex items-center justify-between">
+          <span>2. The Practitioner (Gurulakshmi)</span> <i data-lucide="chevron-right" class="w-4 h-4 text-charcoal-400"></i>
+        </button>
+        <button onclick="navigate('practice'); toggleMobileMenu()" class="text-left px-4 py-2.5 rounded-xl hover:bg-oat-200/50 text-charcoal-700 flex items-center justify-between">
+          <span>3. Sound-Based Space Cleansing</span> <i data-lucide="chevron-right" class="w-4 h-4 text-charcoal-400"></i>
+        </button>
+        <button onclick="navigate('instruments'); toggleMobileMenu()" class="text-left px-4 py-2.5 rounded-xl hover:bg-oat-200/50 text-charcoal-700 flex items-center justify-between">
+          <span>4. 10 Instruments & Sound Room</span>
+          <span class="text-[10px] font-mono uppercase bg-brass-200 px-2 py-0.5 rounded text-brass-700 font-bold">Audio Synth</span>
+        </button>
+        <button onclick="navigate('services'); toggleMobileMenu()" class="text-left px-4 py-2.5 rounded-xl hover:bg-oat-200/50 text-charcoal-700 flex items-center justify-between">
+          <span>5. Services & Session Formats</span> <i data-lucide="chevron-right" class="w-4 h-4 text-charcoal-400"></i>
+        </button>
+        <button onclick="navigate('science'); toggleMobileMenu()" class="text-left px-4 py-2.5 rounded-xl hover:bg-oat-200/50 text-charcoal-700 flex items-center justify-between">
+          <span>6. The Science of Sound</span> <i data-lucide="chevron-right" class="w-4 h-4 text-charcoal-400"></i>
+        </button>
+        <button onclick="navigate('contact'); toggleMobileMenu()" class="text-left px-4 py-3 rounded-xl bg-sage-800 text-white font-semibold flex items-center justify-between mt-2 shadow-sm">
+          <span>Book a Session via WhatsApp</span>
+          <i data-lucide="arrow-right" class="w-4 h-4"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN CONTENT (PAGE VIEWS) ==================== -->
+  <main class="pt-24 sm:pt-28 flex-grow">
+
+    <!-- ==================== PAGE 1: HOME ==================== -->
+    <div id="page-home" class="page-view active">
+      
+      <!-- Hero Banner with Pulsing Concentric Harmonic Rings from 1st Design -->
+      <section class="py-16 sm:py-24 md:py-32 px-4 sm:px-6 lg:px-12 max-w-6xl mx-auto text-center relative">
+        
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-oat-200 border border-charcoal-900/10 text-charcoal-700 text-xs font-medium tracking-wider uppercase mb-8 shadow-sm">
+          <span class="w-2 h-2 rounded-full bg-sage-700"></span>
+          <span>Acoustic Vibrations & Spatial Harmonization</span>
+        </div>
+
+        <h1 class="font-serif text-5xl sm:text-7xl lg:text-8xl font-normal text-charcoal-900 tracking-tight leading-[1.05] mb-8">
+          Harmonizing Environments. <br />
+          <span class="italic font-normal text-sage-800">Elevating Vibrations.</span>
+        </h1>
+
+        <!-- Original Quote from Bundle -->
+        <p class="text-base sm:text-xl text-charcoal-700 leading-relaxed font-light max-w-3xl mx-auto mb-6">
+          “Just as our bodies hold onto stress, the spaces we inhabit absorb and retain the energetic imprints of daily life. Through the sacred medicine of sound, we clear the old and welcome the pure.”
+        </p>
+
+        <p class="text-sm sm:text-base text-charcoal-600 leading-relaxed font-light max-w-2xl mx-auto mb-12">
+          A path from density to clarity. Combining ancient vibrational wisdom with modern sound science to transform heavy, stagnant spaces into sanctuaries of peace and vitality.
+        </p>
+
+        <!-- Quick Multi-Page Route Action Buttons -->
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
+          <button onclick="navigate('services')" class="w-full sm:w-auto px-8 py-4 rounded-full bg-sage-800 hover:bg-sage-900 text-white font-medium text-sm tracking-wide shadow-md transition-all flex items-center justify-center gap-2 hover:scale-[1.02]">
+            <span>Explore Session Formats</span>
+            <i data-lucide="arrow-right" class="w-4 h-4 text-sage-200"></i>
+          </button>
+          <button onclick="navigate('instruments')" class="w-full sm:w-auto px-8 py-4 rounded-full bg-oat-200 hover:bg-oat-300 text-charcoal-900 border border-charcoal-900/10 font-medium text-sm tracking-wide shadow-sm transition-all flex items-center justify-center gap-2 hover:scale-[1.02]">
+            <i data-lucide="volume-2" class="w-4 h-4 text-brass-600"></i>
+            <span>Test 10 Sacred Instruments</span>
+          </button>
+        </div>
+
+        <!-- Sacred Harmonic Sound Ring Visualizer (From 1st Design, now in organic warm palette) -->
+        <div class="relative w-72 h-72 sm:w-80 sm:h-80 mx-auto my-12 flex items-center justify-center">
+          <!-- Concentric Harmonic Rings -->
+          <div class="absolute inset-0 rounded-full border border-sage-500/20 animate-pulse-ring"></div>
+          <div class="absolute inset-4 rounded-full border border-brass-500/30 animate-pulse"></div>
+          <div class="absolute inset-8 rounded-full border border-indigoZen-500/25 animate-spin-slow"></div>
+          <div class="absolute inset-14 rounded-full border border-roseBlush-500/30 border-dashed"></div>
+          <div class="absolute inset-20 rounded-full border border-terracotta-500/40"></div>
+          
+          <!-- Center Sacred Core -->
+          <div class="relative w-24 h-24 rounded-full bg-gradient-to-tr from-sage-100 via-oat-200 to-brass-100 border border-sage-500/40 flex flex-col items-center justify-center shadow-lg shadow-sage-900/5">
+            <span class="text-3xl font-serif text-sage-900">ॐ</span>
+            <span class="text-[10px] font-mono text-sage-700 mt-1 font-semibold">432 Hz</span>
+          </div>
+
+          <!-- Floating Instrument Badges (From 1st Design) -->
+          <div class="absolute -top-2 right-4 px-3 py-1 rounded-full bg-oat-100 border border-sage-500/30 text-[11px] font-mono text-sage-800 shadow-sm animate-float-slow">
+            Tibetan Singing Bowls
+          </div>
+          <div class="absolute bottom-2 -left-2 px-3 py-1 rounded-full bg-oat-100 border border-brass-500/30 text-[11px] font-mono text-brass-700 shadow-sm animate-float-slow" style="animation-delay: 1.5s;">
+            Koshi Chimes
+          </div>
+          <div class="absolute top-1/2 -right-6 px-3 py-1 rounded-full bg-oat-100 border border-indigoZen-500/30 text-[11px] font-mono text-indigoZen-700 shadow-sm animate-float-slow" style="animation-delay: 3s;">
+            Sacred Gong
+          </div>
+        </div>
+
+        <!-- 4 Credential Badges (Verbatim from Brochure Page 1) -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 max-w-4xl mx-auto mt-12">
+          <div class="card-oat rounded-2xl p-4 text-center">
+            <span class="text-[10px] font-mono uppercase tracking-widest text-brass-600 block mb-0.5 font-bold">STATUS</span>
+            <span class="text-xs sm:text-sm font-semibold text-charcoal-900">Certified Practice</span>
+          </div>
+          <div class="card-sage rounded-2xl p-4 text-center">
+            <span class="text-[10px] font-mono uppercase tracking-widest text-sage-700 block mb-0.5 font-bold">EXPERIENCE</span>
+            <span class="text-xs sm:text-sm font-semibold text-charcoal-900">Many Sound Baths</span>
+          </div>
+          <div class="card-terracotta rounded-2xl p-4 text-center">
+            <span class="text-[10px] font-mono uppercase tracking-widest text-terracotta-700 block mb-0.5 font-bold">CORE METHOD</span>
+            <span class="text-xs sm:text-sm font-semibold text-charcoal-900">Space Cleansing</span>
+          </div>
+          <div class="card-brass rounded-2xl p-4 text-center">
+            <span class="text-[10px] font-mono uppercase tracking-widest text-brass-600 block mb-0.5 font-bold">ACOUSTIC FLEET</span>
+            <span class="text-xs sm:text-sm font-semibold text-charcoal-900">10 Instruments</span>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Sacred Quote Banner (PDF Page 4) -->
+      <section class="py-16 bg-oat-200/80 border-y border-charcoal-900/10 px-4 sm:px-6">
+        <div class="max-w-4xl mx-auto text-center space-y-3">
+          <span class="text-[11px] uppercase tracking-[0.25em] text-brass-600 font-bold block">A Space For Stillness</span>
+          <blockquote class="font-serif text-2xl sm:text-4xl italic text-charcoal-900 leading-snug font-normal">
+            “Every space holds a story. Sound can help create room for the next one.”
+          </blockquote>
+        </div>
+      </section>
+
+      <!-- 6 Themed Cards across all 6 Natural Colors (From Website Bundle) -->
+      <section class="py-20 px-4 sm:px-6 lg:px-12 max-w-6xl mx-auto">
+        <div class="text-center max-w-2xl mx-auto mb-14">
+          <span class="text-xs font-mono uppercase tracking-widest text-sage-700 block mb-2 font-bold">PHYSIOLOGICAL & SPATIAL IMPACT</span>
+          <h2 class="font-serif text-3xl sm:text-5xl font-normal text-charcoal-900">
+            Why Sound Transforms Spaces & Minds
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          
+          <!-- Card 1: Sage -->
+          <div class="card-sage rounded-2xl p-6">
+            <div class="w-10 h-10 rounded-xl bg-oat-100 flex items-center justify-center text-sage-800 mb-4 shadow-sm">
+              <i data-lucide="feather" class="w-5 h-5"></i>
+            </div>
+            <h4 class="font-serif text-xl font-bold text-charcoal-900 mb-1">Stress Release</h4>
+            <p class="text-xs text-charcoal-600 leading-relaxed font-light">Vagus nerve stimulation lowers cortisol — dissolving physical & mental tension.</p>
+          </div>
+
+          <!-- Card 2: Brass -->
+          <div class="card-brass rounded-2xl p-6">
+            <div class="w-10 h-10 rounded-xl bg-oat-100 flex items-center justify-center text-brass-600 mb-4 shadow-sm">
+              <i data-lucide="sparkles" class="w-5 h-5"></i>
+            </div>
+            <h4 class="font-serif text-xl font-bold text-charcoal-900 mb-1">Mental Clarity</h4>
+            <p class="text-xs text-charcoal-600 leading-relaxed font-light">Improves Heart Rate Variability, sharpening executive focus, decisions & creativity.</p>
+          </div>
+
+          <!-- Card 3: Rose Quartz Blush (NEW COLOR) -->
+          <div class="card-rose rounded-2xl p-6">
+            <div class="w-10 h-10 rounded-xl bg-oat-100 flex items-center justify-center text-roseBlush-700 mb-4 shadow-sm">
+              <i data-lucide="heart-handshake" class="w-5 h-5"></i>
+            </div>
+            <h4 class="font-serif text-xl font-bold text-charcoal-900 mb-1">Emotional Reset</h4>
+            <p class="text-xs text-charcoal-600 leading-relaxed font-light">Releases stuck emotional energy — restoring inner calm, heart harmony, and resilience.</p>
+          </div>
+
+          <!-- Card 4: Midnight Indigo (NEW COLOR) -->
+          <div class="card-indigo rounded-2xl p-6">
+            <div class="w-10 h-10 rounded-xl bg-oat-100 flex items-center justify-center text-indigoZen-700 mb-4 shadow-sm">
+              <i data-lucide="moon" class="w-5 h-5"></i>
+            </div>
+            <h4 class="font-serif text-xl font-bold text-charcoal-900 mb-1">Better Sleep & Theta State</h4>
+            <p class="text-xs text-charcoal-600 leading-relaxed font-light">Deep vibrational relaxation guides brainwaves into restorative nocturnal theta cycles.</p>
+          </div>
+
+          <!-- Card 5: Terracotta -->
+          <div class="card-terracotta rounded-2xl p-6">
+            <div class="w-10 h-10 rounded-xl bg-oat-100 flex items-center justify-center text-terracotta-700 mb-4 shadow-sm">
+              <i data-lucide="zap" class="w-5 h-5"></i>
+            </div>
+            <h4 class="font-serif text-xl font-bold text-charcoal-900 mb-1">Renewed Vitality</h4>
+            <p class="text-xs text-charcoal-600 leading-relaxed font-light">Participants return recharged, grounded in body, fully present, and productive.</p>
+          </div>
+
+          <!-- Card 6: Oat -->
+          <div class="card-oat rounded-2xl p-6">
+            <div class="w-10 h-10 rounded-xl bg-oat-200 flex items-center justify-center text-charcoal-800 mb-4 shadow-sm">
+              <i data-lucide="shield" class="w-5 h-5"></i>
+            </div>
+            <h4 class="font-serif text-xl font-bold text-charcoal-900 mb-1">Cleansed Sanctuary</h4>
+            <p class="text-xs text-charcoal-600 leading-relaxed font-light">Environments cleared of stagnant residue — welcoming renewed harmony and peace.</p>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Multi-Page Navigation Hub & Chapter Advance Flow -->
+      <section class="py-16 bg-oat-200/50 border-t border-charcoal-900/10 px-4 sm:px-6 lg:px-12">
+        <div class="max-w-6xl mx-auto">
+          <div class="text-center max-w-2xl mx-auto mb-10">
+            <span class="text-xs font-mono uppercase tracking-widest text-brass-600 font-bold block mb-1">DETAILED CHAPTERS</span>
+            <h3 class="font-serif text-3xl font-normal text-charcoal-900">Explore the Full Platform</h3>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+            <div onclick="navigate('practitioner')" class="card-sage rounded-3xl p-8 cursor-pointer group">
+              <span class="text-xs font-mono text-sage-800 font-bold uppercase tracking-wider block mb-2">CHAPTER 01</span>
+              <h4 class="font-serif text-2xl font-bold text-charcoal-900 mb-2 group-hover:text-sage-800">The Practitioner</h4>
+              <p class="text-xs text-charcoal-600 leading-relaxed font-light mb-4">Gurulakshmi's background, intuitive approach, and philosophy from density to clarity.</p>
+              <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-sage-800 uppercase tracking-wider">
+                <span>View Profile</span> <i data-lucide="arrow-right" class="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform"></i>
+              </span>
+            </div>
+
+            <div onclick="navigate('instruments')" class="card-brass rounded-3xl p-8 cursor-pointer group">
+              <span class="text-xs font-mono text-brass-600 font-bold uppercase tracking-wider block mb-2">CHAPTER 02</span>
+              <h4 class="font-serif text-2xl font-bold text-charcoal-900 mb-2 group-hover:text-brass-700">10 Instruments & Sound Room</h4>
+              <p class="text-xs text-charcoal-600 leading-relaxed font-light mb-4">Explore the 10 instruments and synthesize authentic 432Hz & 528Hz waves.</p>
+              <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-brass-600 uppercase tracking-wider">
+                <span>Listen Live</span> <i data-lucide="arrow-right" class="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform"></i>
+              </span>
+            </div>
+
+            <div onclick="navigate('services')" class="card-terracotta rounded-3xl p-8 cursor-pointer group">
+              <span class="text-xs font-mono text-terracotta-700 font-bold uppercase tracking-wider block mb-2">CHAPTER 03</span>
+              <h4 class="font-serif text-2xl font-bold text-charcoal-900 mb-2 group-hover:text-terracotta-800">Services & Formats</h4>
+              <p class="text-xs text-charcoal-600 leading-relaxed font-light mb-4">Residential, corporate, emotional reset, and routine maintenance protocols.</p>
+              <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-terracotta-700 uppercase tracking-wider">
+                <span>View Formats</span> <i data-lucide="arrow-right" class="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform"></i>
+              </span>
+            </div>
+          </div>
+
+          <!-- Direct Next Chapter Flow Button -->
+          <div class="text-center">
+            <button onclick="navigate('practitioner')" class="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-sage-800 hover:bg-sage-900 text-white text-xs font-semibold uppercase tracking-wider shadow-sm transition-all hover:scale-[1.02]">
+              <span>Begin With Chapter 1: The Practitioner</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- ==================== PAGE 2: THE PRACTITIONER ==================== -->
+    <div id="page-practitioner" class="page-view">
+      
+      <!-- Page Header -->
+      <section class="py-16 sm:py-20 bg-oat-200/60 border-b border-charcoal-900/10 px-4 sm:px-6">
+        <div class="max-w-4xl mx-auto text-center">
+          <span class="text-xs font-mono uppercase tracking-widest text-sage-700 block mb-2 font-bold">PAGE 01 · BACKGROUND & VALUES</span>
+          <h1 class="font-serif text-4xl sm:text-6xl text-charcoal-900 mb-4 font-normal">
+            A Path from Density to Clarity
+          </h1>
+          <p class="text-sm sm:text-base text-charcoal-600 max-w-xl mx-auto font-light">
+            Meet Gurulakshmi and understand the intuitive and ancient vibrational principles guiding each space cleansing session.
+          </p>
+        </div>
+      </section>
+
+      <!-- Main Profile Section -->
+      <section class="py-20 px-4 sm:px-6 lg:px-12 max-w-5xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-10 lg:gap-14 items-center mb-16">
+          
+          <div class="md:col-span-5">
+            <div class="card-sage rounded-3xl p-8 text-center shadow-sm">
+              <div class="w-20 h-20 rounded-full bg-oat-100 border border-sage-500/20 text-sage-800 flex items-center justify-center font-serif text-4xl mx-auto mb-6 shadow-sm animate-float-slow">
+                ॐ
+              </div>
+              <h3 class="font-serif text-3xl font-bold text-charcoal-900 mb-1">Gurulakshmi</h3>
+              <p class="text-xs font-semibold tracking-wider uppercase text-brass-600 mb-6">Sound Healer & Space Cleansing Practitioner</p>
+
+              <div class="bg-oat-100 rounded-2xl p-5 text-xs text-charcoal-700 leading-relaxed text-left border border-charcoal-900/5 space-y-2.5 mb-6">
+                <div class="flex items-center gap-2">
+                  <i data-lucide="map-pin" class="w-4 h-4 text-sage-700"></i>
+                  <span>In-Person & Virtual Sessions</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <i data-lucide="briefcase" class="w-4 h-4 text-sage-700"></i>
+                  <span>Corporate, Education, Medical & Residential</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <i data-lucide="clock" class="w-4 h-4 text-sage-700"></i>
+                  <span>Session duration: 45–60 minutes</span>
+                </div>
+              </div>
+
+              <div class="flex flex-col gap-2.5 text-xs font-medium text-charcoal-700 pt-2 border-t border-charcoal-900/10">
+                <a href="mailto:gurulakshmi.anandkumar@gmail.com" class="flex items-center justify-center gap-1.5 hover:text-sage-800 transition-colors">
+                  <i data-lucide="mail" class="w-4 h-4 text-sage-700"></i>
+                  <span>gurulakshmi.anandkumar@gmail.com</span>
+                </a>
+                <div class="flex items-center justify-center gap-4">
+                  <a href="https://instagram.com/guru_sound_healer" target="_blank" class="flex items-center gap-1.5 hover:text-pink-600 transition-colors">
+                    <i data-lucide="instagram" class="w-4 h-4 text-pink-500"></i>
+                    <span>@guru_sound_healer</span>
+                  </a>
+                  <span class="text-oat-400">•</span>
+                  <a href="tel:+917010333900" class="flex items-center gap-1.5 hover:text-sage-800 transition-colors font-mono">
+                    <i data-lucide="phone" class="w-4 h-4 text-sage-700"></i>
+                    <span>+91 70103 33900</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="md:col-span-7 space-y-6">
+            <span class="text-xs uppercase tracking-[0.2em] font-bold text-sage-700 block">The Practitioner</span>
+            <h2 class="font-serif text-3xl sm:text-5xl font-normal text-charcoal-900 leading-tight">
+              A path from density <br /><span class="italic text-sage-800">to absolute clarity.</span>
+            </h2>
+            
+            <div class="space-y-4 text-sm sm:text-base text-charcoal-700 leading-relaxed font-light">
+              <p>
+                Gurulakshmi is a dedicated Sound Healer and intuitive Space Cleansing Practitioner, passionate about transforming dense, stagnant environments into sanctuaries of peace and vitality.
+              </p>
+              <p>
+                Combining ancient vibrational wisdom with a modern understanding of energy dynamics, she helps individuals, families, and businesses realign their surroundings with their highest intention.
+              </p>
+              <p>
+                Whether it’s a new home, an office, or a room that simply feels “heavy,” she uses sound to shift the atmosphere from chaos to clarity.
+              </p>
+            </div>
+
+            <!-- Credentials Grid from Brochure -->
+            <div class="pt-4 grid grid-cols-2 gap-3 text-xs">
+              <div class="p-3 rounded-xl bg-oat-200 border border-charcoal-900/5 font-semibold text-charcoal-800 flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-sage-700"></i> Certified Practice
+              </div>
+              <div class="p-3 rounded-xl bg-oat-200 border border-charcoal-900/5 font-semibold text-charcoal-800 flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-sage-700"></i> Many Sound Baths Conducted
+              </div>
+              <div class="p-3 rounded-xl bg-oat-200 border border-charcoal-900/5 font-semibold text-charcoal-800 flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-sage-700"></i> Space Cleansing Specialist
+              </div>
+              <div class="p-3 rounded-xl bg-oat-200 border border-charcoal-900/5 font-semibold text-charcoal-800 flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-sage-700"></i> Multi-Instrument Fleet
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Corporate & High Performance Insight (From Website Bundle) -->
+        <div class="card-brass rounded-3xl p-8 sm:p-10 border border-brass-500/20 mb-12">
+          <div class="max-w-3xl">
+            <span class="text-xs uppercase tracking-widest text-brass-700 font-bold block mb-2">PERFORMANCE & WELLNESS INSIGHT</span>
+            <h3 class="font-serif text-2xl sm:text-3xl font-bold text-charcoal-900 mb-3">
+              “Relaxation is not a luxury — in high-stakes environments, it is a performance requirement.”
+            </h3>
+            <p class="text-sm text-charcoal-700 leading-relaxed font-light">
+              A relaxed nervous system is an adaptive, creative, and productive one. Gurulakshmi brings acoustic resonance to workplaces and teams to clear burnout, enhance collective intuition, and establish calm focus.
+            </p>
+          </div>
+        </div>
+
+        <!-- Next Chapter Flow -->
+        <div class="flex items-center justify-between pt-8 border-t border-charcoal-900/10">
+          <button onclick="navigate('home')" class="text-xs font-semibold text-charcoal-600 hover:text-charcoal-900 flex items-center gap-1.5 uppercase tracking-wider">
+            <i data-lucide="arrow-left" class="w-3.5 h-3.5"></i> <span>Back to Home</span>
+          </button>
+          <button onclick="navigate('practice')" class="text-xs font-semibold text-sage-800 hover:text-sage-900 flex items-center gap-1.5 uppercase tracking-wider">
+            <span>Next: The Practice ➔</span>
+          </button>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- ==================== PAGE 3: THE PRACTICE ==================== -->
+    <div id="page-practice" class="page-view">
+      
+      <!-- Page Header -->
+      <section class="py-16 sm:py-20 bg-oat-200/60 border-b border-charcoal-900/10 px-4 sm:px-6">
+        <div class="max-w-4xl mx-auto text-center">
+          <span class="text-xs font-mono uppercase tracking-widest text-sage-700 block mb-2 font-bold">PAGE 02 · METHODOLOGY</span>
+          <h1 class="font-serif text-4xl sm:text-6xl text-charcoal-900 mb-4 font-normal">
+            Sound-Based Space Cleansing
+          </h1>
+          <p class="text-sm sm:text-base text-charcoal-600 max-w-2xl mx-auto font-light">
+            Physical clearing removes dust — energetic clearing focuses on the subtle residue people may associate with a space.
+          </p>
+        </div>
+      </section>
+
+      <!-- Cleansing Pillars (Brochure Page 1) -->
+      <section class="py-20 px-4 sm:px-6 lg:px-12 max-w-5xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+          
+          <div class="card-sage rounded-3xl p-8">
+            <div class="w-12 h-12 rounded-2xl bg-oat-100 flex items-center justify-center text-sage-800 mb-6 shadow-sm">
+              <i data-lucide="expand" class="w-6 h-6"></i>
+            </div>
+            <h3 class="font-serif text-2xl font-bold text-charcoal-900 mb-3">Reaches Walls & Corners</h3>
+            <p class="text-sm text-charcoal-600 leading-relaxed font-light">
+              Reaches walls, furniture, ceilings, and corners throughout a space. Sound uses acoustic vibration to travel through solid matter where passive incense cannot penetrate.
+            </p>
+          </div>
+
+          <div class="card-terracotta rounded-3xl p-8">
+            <div class="w-12 h-12 rounded-2xl bg-oat-100 flex items-center justify-center text-terracotta-700 mb-6 shadow-sm">
+              <i data-lucide="wind" class="w-5 h-5"></i>
+            </div>
+            <h3 class="font-serif text-2xl font-bold text-charcoal-900 mb-3">Release & Renewal</h3>
+            <p class="text-sm text-charcoal-600 leading-relaxed font-light">
+              Uses focused sound to support release and renewal. Specific overtone frequencies break apart stagnant residues from previous illness, grief, or arguments.
+            </p>
+          </div>
+
+          <div class="card-brass rounded-3xl p-8">
+            <div class="w-12 h-12 rounded-2xl bg-oat-100 flex items-center justify-center text-brass-600 mb-6 shadow-sm">
+              <i data-lucide="sparkles" class="w-5 h-5"></i>
+            </div>
+            <h3 class="font-serif text-2xl font-bold text-charcoal-900 mb-3">Harmonic Alignment</h3>
+            <p class="text-sm text-charcoal-600 leading-relaxed font-light">
+              Concludes with harmonic alignment and a positive intention, using high-frequency bells to anchor clarity and protect the renewed ambiance.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- 3-Step Journey Progression (PDF Page 4) -->
+        <div class="card-oat rounded-3xl p-8 sm:p-12 border border-charcoal-900/10 mb-12">
+          <div class="text-center max-w-xl mx-auto mb-10">
+            <span class="text-xs uppercase tracking-widest text-brass-600 font-bold block mb-1">THE JOURNEY</span>
+            <h3 class="font-serif text-3xl font-bold text-charcoal-900">A Typical Session</h3>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-oat-100 p-6 rounded-2xl border border-charcoal-900/5">
+              <span class="font-serif text-3xl font-bold text-brass-600 block mb-2">01 ARRIVE</span>
+              <p class="text-sm text-charcoal-700 font-light leading-relaxed">
+                Settle into the space and clarify the intention.
+              </p>
+            </div>
+            <div class="bg-oat-100 p-6 rounded-2xl border border-charcoal-900/5">
+              <span class="font-serif text-3xl font-bold text-sage-700 block mb-2">02 LISTEN</span>
+              <p class="text-sm text-charcoal-700 font-light leading-relaxed">
+                Experience a layered journey of resonance and rhythm through all rooms.
+              </p>
+            </div>
+            <div class="bg-oat-100 p-6 rounded-2xl border border-charcoal-900/5">
+              <span class="font-serif text-3xl font-bold text-terracotta-700 block mb-2">03 RESET</span>
+              <p class="text-sm text-charcoal-700 font-light leading-relaxed">
+                Allow the session to conclude in stillness and integration.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Next Chapter Flow -->
+        <div class="flex items-center justify-between pt-8 border-t border-charcoal-900/10">
+          <button onclick="navigate('practitioner')" class="text-xs font-semibold text-charcoal-600 hover:text-charcoal-900 flex items-center gap-1.5 uppercase tracking-wider">
+            <i data-lucide="arrow-left" class="w-3.5 h-3.5"></i> <span>Back: The Practitioner</span>
+          </button>
+          <button onclick="navigate('instruments')" class="text-xs font-semibold text-sage-800 hover:text-sage-900 flex items-center gap-1.5 uppercase tracking-wider">
+            <span>Next: 10 Instruments & Sound Room ➔</span>
+          </button>
+        </div>
+
+      </section>
+
+    </div>
+
+    <!-- ==================== PAGE 4: 10 INSTRUMENTS & SOUND ROOM ==================== -->
+    <div id="page-instruments" class="page-view">
+      
+      <!-- Page Header -->
+      <section class="py-16 sm:py-20 bg-oat-200/60 border-b border-charcoal-900/10 px-4 sm:px-6">
+        <div class="max-w-4xl mx-auto text-center">
+          <span class="text-xs font-mono uppercase tracking-widest text-brass-600 block mb-2 font-bold">PAGE 03 · THE TOOLKIT & SOUND ROOM</span>
+          <h1 class="font-serif text-4xl sm:text-6xl text-charcoal-900 mb-4 font-normal">
+            Instruments of Resonance
+          </h1>
+          <p class="text-sm sm:text-base text-charcoal-600 max-w-xl mx-auto font-light">
+            A curated palette of resonance, rhythm and atmosphere — selected according to the intention and character of each session.
+          </p>
+        </div>
+      </section>
+
+      <!-- Interactive Sound Synthesizer Room with Master Volume Slider (From 1st Design) -->
+      <section class="py-12 px-4 sm:px-6 max-w-4xl mx-auto">
+        <div class="card-brass rounded-3xl p-6 sm:p-10 border border-brass-500/20 shadow-sm relative overflow-hidden">
+          
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 mb-6 border-b border-charcoal-900/10">
+            <div>
+              <span class="text-xs font-mono uppercase tracking-wider text-brass-700 font-bold block">Acoustic Audio Room · Web Synthesizer</span>
+              <span id="player-title" class="text-base font-serif font-bold text-charcoal-900">Click any instrument to listen</span>
+            </div>
+            
+            <div class="flex items-center gap-4">
+              <!-- Master Volume Slider from 1st Design -->
+              <div class="hidden sm:flex items-center gap-2 text-xs font-mono text-charcoal-600">
+                <span>Vol</span>
+                <input type="range" min="0" max="1" step="0.05" value="0.4" oninput="setVolume(this.value)" class="w-20 h-1.5 bg-oat-300 rounded-lg appearance-none cursor-pointer accent-sage-800">
+              </div>
+
+              <button onclick="stopAudio()" id="player-stop" class="px-5 py-2 rounded-full text-xs font-semibold bg-oat-200 hover:bg-oat-300 text-charcoal-800 transition-colors disabled:opacity-40" disabled>
+                Stop Sound
+              </button>
+            </div>
+          </div>
+
+          <!-- Oscilloscope Wave Canvas -->
+          <div class="w-full h-24 bg-oat-100 rounded-2xl border border-charcoal-900/10 relative overflow-hidden flex items-center justify-center mb-6">
+            <canvas id="sound-canvas" class="w-full h-full"></canvas>
+            <div id="sound-empty" class="text-xs text-charcoal-500 font-light">
+              Oscilloscope idle · Click a frequency button below to start
+            </div>
+          </div>
+
+          <!-- 4 Tone Buttons -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+            <button onclick="playTone(432, 'Tibetan Singing Bowl (432 Hz - Grounding Resonance)')" class="tone-card p-4 rounded-2xl bg-oat-100 hover:bg-sage-100 border border-charcoal-900/5 flex items-center justify-between text-left transition-all" data-hz="432">
+              <div>
+                <div class="text-sm font-semibold text-charcoal-900">Tibetan Singing Bowl</div>
+                <div class="text-xs text-charcoal-500 font-light">432 Hz · Deep body grounding vibration</div>
+              </div>
+              <i data-lucide="play" class="w-4 h-4 text-sage-700"></i>
+            </button>
+
+            <button onclick="playTone(528, 'Koshi Chimes (528 Hz - Ethereal Transformation)')" class="tone-card p-4 rounded-2xl bg-oat-100 hover:bg-brass-100 border border-charcoal-900/5 flex items-center justify-between text-left transition-all" data-hz="528">
+              <div>
+                <div class="text-sm font-semibold text-charcoal-900">Koshi Chimes</div>
+                <div class="text-xs text-charcoal-500 font-light">528 Hz · Ethereal atmospheric clarity</div>
+              </div>
+              <i data-lucide="play" class="w-4 h-4 text-brass-600"></i>
+            </button>
+
+            <button onclick="playTone(108, 'Sacred Gong (108 Hz - Sub-Bass Wave)')" class="tone-card p-4 rounded-2xl bg-oat-100 hover:bg-indigoZen-100 border border-charcoal-900/5 flex items-center justify-between text-left transition-all" data-hz="108">
+              <div>
+                <div class="text-sm font-semibold text-charcoal-900">Sacred Gong</div>
+                <div class="text-xs text-charcoal-500 font-light">108 Hz · Deep physical shockwave</div>
+              </div>
+              <i data-lucide="play" class="w-4 h-4 text-indigoZen-700"></i>
+            </button>
+
+            <button onclick="playTone(963, 'Tingaha Bell (963 Hz - High Crystalline Seal)')" class="tone-card p-4 rounded-2xl bg-oat-100 hover:bg-roseBlush-100 border border-charcoal-900/5 flex items-center justify-between text-left transition-all" data-hz="963">
+              <div>
+                <div class="text-sm font-semibold text-charcoal-900">Tingaha Bell</div>
+                <div class="text-xs text-charcoal-500 font-light">963 Hz · Crisp space sealer</div>
+              </div>
+              <i data-lucide="play" class="w-4 h-4 text-roseBlush-700"></i>
+            </button>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Complete 10 Instruments List with Category Filter Tabs (From 1st Design) -->
+      <section class="py-16 px-4 sm:px-6 lg:px-12 max-w-5xl mx-auto">
+        <div class="text-center mb-8">
+          <span class="text-xs uppercase tracking-widest text-brass-600 font-bold block mb-1">THE TOOLKIT</span>
+          <h3 class="font-serif text-3xl font-normal text-charcoal-900 mb-4">Curated Palette of 10 Instruments</h3>
+
+          <!-- Instrument Filter Pills -->
+          <div class="flex flex-wrap items-center justify-center gap-2 mt-4">
+            <button onclick="filterInst('all')" class="inst-pill px-4 py-1.5 rounded-full text-xs font-semibold bg-sage-800 text-white" data-cat="all">All 10</button>
+            <button onclick="filterInst('deep')" class="inst-pill px-4 py-1.5 rounded-full text-xs font-semibold bg-oat-200 text-charcoal-700 hover:bg-oat-300" data-cat="deep">Deep Resonance</button>
+            <button onclick="filterInst('ethereal')" class="inst-pill px-4 py-1.5 rounded-full text-xs font-semibold bg-oat-200 text-charcoal-700 hover:bg-oat-300" data-cat="ethereal">Ethereal & Air</button>
+            <button onclick="filterInst('nature')" class="inst-pill px-4 py-1.5 rounded-full text-xs font-semibold bg-oat-200 text-charcoal-700 hover:bg-oat-300" data-cat="nature">Water & Nature</button>
+            <button onclick="filterInst('bells')" class="inst-pill px-4 py-1.5 rounded-full text-xs font-semibold bg-oat-200 text-charcoal-700 hover:bg-oat-300" data-cat="bells">Bells & Chimes</button>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-12" id="inst-grid">
+          
+          <!-- 1. Singing Bowls -->
+          <div class="card-oat rounded-2xl p-6 flex items-start gap-4 inst-item" data-cat="deep">
+            <span class="w-8 h-8 rounded-full bg-oat-200 flex items-center justify-center text-xs font-mono font-bold text-brass-600 shrink-0">01</span>
+            <div>
+              <div class="flex items-center justify-between">
+                <h4 class="font-serif text-xl font-bold text-charcoal-900 mb-1">Singing Bowls</h4>
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-sage-100 text-sage-800 font-semibold">Deep</span>
+              </div>
+              <p class="text-sm text-charcoal-600 font-light leading-relaxed">Tibetan resonance for deep body vibration.</p>
+            </div>
+          </div>
+
+          <!-- 2. Gong -->
+          <div class="card-oat rounded-2xl p-6 flex items-start gap-4 inst-item" data-cat="deep">
+            <span class="w-8 h-8 rounded-full bg-oat-200 flex items-center justify-center text-xs font-mono font-bold text-brass-600 shrink-0">02</span>
+            <div>
+              <div class="flex items-center justify-between">
+                <h4 class="font-serif text-xl font-bold text-charcoal-900 mb-1">Gong</h4>
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-indigoZen-100 text-indigoZen-800 font-semibold">Deep Wave</span>
+              </div>
+              <p class="text-sm text-charcoal-600 font-light leading-relaxed">Powerful waves for immersive sound journeys.</p>
+            </div>
+          </div>
+
+          <!-- 3. Koshi Chimes -->
+          <div class="card-oat rounded-2xl p-6 flex items-start gap-4 inst-item" data-cat="ethereal">
+            <span class="w-8 h-8 rounded-full bg-oat-200 flex items-center justify-center text-xs font-mono font-bold text-brass-600 shrink-0">03</span>
+            <div>
+              <div class="flex items-center justify-between">
+                <h4 class="font-serif text-xl font-bold text-charcoal-900 mb-1">Koshi Chimes</h4>
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-brass-100 text-brass-700 font-semibold">Ethereal</span>
+              </div>
+              <p class="text-sm text-charcoal-600 font-light leading-relaxed">Ethereal tones inspired by nature.</p>
+            </div>
+          </div>
+
+          <!-- 4. Resonator -->
+          <div class="card-oat rounded-2xl p-6 flex items-start gap-4 inst-item" data-cat="deep">
+            <span class="w-8 h-8 rounded-full bg-oat-200 flex items-center justify-center text-xs font-mono font-bold text-brass-600 shrink-0">04</span>
+            <div>
+              <div class="flex items-center justify-between">
+                <h4 class="font-serif text-xl font-bold text-charcoal-900 mb-1">Resonator</h4>
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-sage-100 text-sage-800 font-semibold">Sustained</span>
+              </div>
+              <p class="text-sm text-charcoal-600 font-light leading-relaxed">Sustained harmonic overtones.</p>
+            </div>
+          </div>
+
+          <!-- 5. Nadi Tarang -->
+          <div class="card-oat rounded-2xl p-6 flex items-start gap-4 inst-item" data-cat="deep">
+            <span class="w-8 h-8 rounded-full bg-oat-200 flex items-center justify-center text-xs font-mono font-bold text-brass-600 shrink-0">05</span>
+            <div>
+              <div class="flex items-center justify-between">
+                <h4 class="font-serif text-xl font-bold text-charcoal-900 mb-1">Nadi Tarang</h4>
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-terracotta-100 text-terracotta-700 font-semibold">Ceramic</span>
+              </div>
+              <p class="text-sm text-charcoal-600 font-light leading-relaxed">Energy-channeled tuning through ceramic frequencies.</p>
+            </div>
+          </div>
+
+          <!-- 6. 9 Bar Chimes -->
+          <div class="card-oat rounded-2xl p-6 flex items-start gap-4 inst-item" data-cat="bells">
+            <span class="w-8 h-8 rounded-full bg-oat-200 flex items-center justify-center text-xs font-mono font-bold text-brass-600 shrink-0">06</span>
+            <div>
+              <div class="flex items-center justify-between">
+                <h4 class="font-serif text-xl font-bold text-charcoal-900 mb-1">9 Bar Chimes</h4>
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-brass-100 text-brass-700 font-semibold">Intervals</span>
+              </div>
+              <p class="text-sm text-charcoal-600 font-light leading-relaxed">Graduated tones for full-spectrum healing.</p>
+            </div>
+          </div>
+
+          <!-- 7. Ocean Drum -->
+          <div class="card-oat rounded-2xl p-6 flex items-start gap-4 inst-item" data-cat="nature">
+            <span class="w-8 h-8 rounded-full bg-oat-200 flex items-center justify-center text-xs font-mono font-bold text-brass-600 shrink-0">07</span>
+            <div>
+              <div class="flex items-center justify-between">
+                <h4 class="font-serif text-xl font-bold text-charcoal-900 mb-1">Ocean Drum</h4>
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-indigoZen-100 text-indigoZen-800 font-semibold">Water</span>
+              </div>
+              <p class="text-sm text-charcoal-600 font-light leading-relaxed">Wave-like sound for a soothing ambiance.</p>
+            </div>
+          </div>
+
+          <!-- 8. Rain Stick -->
+          <div class="card-oat rounded-2xl p-6 flex items-start gap-4 inst-item" data-cat="nature">
+            <span class="w-8 h-8 rounded-full bg-oat-200 flex items-center justify-center text-xs font-mono font-bold text-brass-600 shrink-0">08</span>
+            <div>
+              <div class="flex items-center justify-between">
+                <h4 class="font-serif text-xl font-bold text-charcoal-900 mb-1">Rain Stick</h4>
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-sage-100 text-sage-800 font-semibold">Nature</span>
+              </div>
+              <p class="text-sm text-charcoal-600 font-light leading-relaxed">Flowing textures that encourage release.</p>
+            </div>
+          </div>
+
+          <!-- 9. Angal Chimes -->
+          <div class="card-oat rounded-2xl p-6 flex items-start gap-4 inst-item" data-cat="bells">
+            <span class="w-8 h-8 rounded-full bg-oat-200 flex items-center justify-center text-xs font-mono font-bold text-brass-600 shrink-0">09</span>
+            <div>
+              <div class="flex items-center justify-between">
+                <h4 class="font-serif text-xl font-bold text-charcoal-900 mb-1">Angal Chimes</h4>
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-roseBlush-100 text-roseBlush-700 font-semibold">High Tones</span>
+              </div>
+              <p class="text-sm text-charcoal-600 font-light leading-relaxed">Delicate high tones that elevate the atmosphere.</p>
+            </div>
+          </div>
+
+          <!-- 10. Tingaha -->
+          <div class="card-oat rounded-2xl p-6 flex items-start gap-4 inst-item" data-cat="bells">
+            <span class="w-8 h-8 rounded-full bg-oat-200 flex items-center justify-center text-xs font-mono font-bold text-brass-600 shrink-0">10</span>
+            <div>
+              <div class="flex items-center justify-between">
+                <h4 class="font-serif text-xl font-bold text-charcoal-900 mb-1">Tingaha</h4>
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-brass-100 text-brass-700 font-semibold">Bell</span>
+              </div>
+              <p class="text-sm text-charcoal-600 font-light leading-relaxed">Crisp bell tones to open and close sessions.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Next Chapter Flow -->
+        <div class="flex items-center justify-between pt-8 border-t border-charcoal-900/10">
+          <button onclick="navigate('practice')" class="text-xs font-semibold text-charcoal-600 hover:text-charcoal-900 flex items-center gap-1.5 uppercase tracking-wider">
+            <i data-lucide="arrow-left" class="w-3.5 h-3.5"></i> <span>Back: The Practice</span>
+          </button>
+          <button onclick="navigate('services')" class="text-xs font-semibold text-sage-800 hover:text-sage-900 flex items-center gap-1.5 uppercase tracking-wider">
+            <span>Next: Services & Configurator ➔</span>
+          </button>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- ==================== PAGE 5: SERVICES & SESSION FORMATS ==================== -->
+    <div id="page-services" class="page-view">
+      
+      <!-- Page Header -->
+      <section class="py-16 sm:py-20 bg-oat-200/60 border-b border-charcoal-900/10 px-4 sm:px-6">
+        <div class="max-w-4xl mx-auto text-center">
+          <span class="text-xs font-mono uppercase tracking-widest text-terracotta-700 block mb-2 font-bold">PAGE 04 · PROTOCOLS & CONFIGURATOR</span>
+          <h1 class="font-serif text-4xl sm:text-6xl text-charcoal-900 mb-4 font-normal">
+            Services Offered
+          </h1>
+          <p class="text-sm sm:text-base text-charcoal-600 max-w-xl mx-auto font-light">
+            Bespoke session configurations designed for domestic renewal, workplace performance, and emotional release.
+          </p>
+        </div>
+      </section>
+
+      <!-- 4 Services Cards (Verbatim from Brochure Page 2) -->
+      <section class="py-20 px-4 sm:px-6 lg:px-12 max-w-5xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+          
+          <!-- 1. Residential Clearing -->
+          <div class="card-sage rounded-3xl p-8 sm:p-10 flex flex-col justify-between">
+            <div>
+              <div class="w-10 h-10 rounded-full bg-oat-100 text-sage-800 flex items-center justify-center mb-6 shadow-sm">
+                <i data-lucide="home" class="w-5 h-5"></i>
+              </div>
+              <h3 class="font-serif text-2xl sm:text-3xl font-bold text-charcoal-900 mb-2">Residential Clearing</h3>
+              <p class="text-sm text-charcoal-700 leading-relaxed font-light mb-6">
+                New homes, post-renovation, or moving into a pre-owned property.
+              </p>
+            </div>
+            <button onclick="navigate('contact')" class="inline-flex items-center gap-2 text-xs font-semibold tracking-wider uppercase text-sage-900 hover:underline">
+              <span>Book Residential Session</span>
+              <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+
+          <!-- 2. Corporate & Office Cleansing -->
+          <div class="card-brass rounded-3xl p-8 sm:p-10 flex flex-col justify-between">
+            <div>
+              <div class="w-10 h-10 rounded-full bg-oat-100 text-brass-600 flex items-center justify-center mb-6 shadow-sm">
+                <i data-lucide="building-2" class="w-5 h-5"></i>
+              </div>
+              <h3 class="font-serif text-2xl sm:text-3xl font-bold text-charcoal-900 mb-2">Corporate & Office Cleansing</h3>
+              <p class="text-sm text-charcoal-700 leading-relaxed font-light mb-6">
+                Offices, creative studio, retail shops, or wellness centers.
+              </p>
+            </div>
+            <button onclick="navigate('contact')" class="inline-flex items-center gap-2 text-xs font-semibold tracking-wider uppercase text-brass-700 hover:underline">
+              <span>Book Corporate Session</span>
+              <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+
+          <!-- 3. Emotional Reset Cleansing -->
+          <div class="card-rose rounded-3xl p-8 sm:p-10 flex flex-col justify-between">
+            <div>
+              <div class="w-10 h-10 rounded-full bg-oat-100 text-roseBlush-700 flex items-center justify-center mb-6 shadow-sm">
+                <i data-lucide="heart" class="w-5 h-5"></i>
+              </div>
+              <h3 class="font-serif text-2xl sm:text-3xl font-bold text-charcoal-900 mb-2">Emotional Reset Cleansing</h3>
+              <p class="text-sm text-charcoal-700 leading-relaxed font-light mb-6">
+                Spaces after loss, illness, separation, or prolonged arguments.
+              </p>
+            </div>
+            <button onclick="navigate('contact')" class="inline-flex items-center gap-2 text-xs font-semibold tracking-wider uppercase text-roseBlush-700 hover:underline">
+              <span>Book Emotional Reset</span>
+              <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+
+          <!-- 4. Routine Maintenance -->
+          <div class="card-oat rounded-3xl p-8 sm:p-10 flex flex-col justify-between">
+            <div>
+              <div class="w-10 h-10 rounded-full bg-oat-200 text-charcoal-800 flex items-center justify-center mb-6 shadow-sm">
+                <i data-lucide="calendar" class="w-5 h-5"></i>
+              </div>
+              <h3 class="font-serif text-2xl sm:text-3xl font-bold text-charcoal-900 mb-2">Routine Maintenance</h3>
+              <p class="text-sm text-charcoal-700 leading-relaxed font-light mb-6">
+                Seasonal shifts or annual energetic needs.
+              </p>
+            </div>
+            <button onclick="navigate('contact')" class="inline-flex items-center gap-2 text-xs font-semibold tracking-wider uppercase text-charcoal-900 hover:underline">
+              <span>Book Routine Care</span>
+              <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Interactive Session Configurator & Quote Calculator (From 1st Design) -->
+        <div class="card-oat rounded-3xl p-8 sm:p-12 border border-charcoal-900/10 mb-16 shadow-sm">
+          <div class="text-center max-w-xl mx-auto mb-10">
+            <span class="text-xs font-mono uppercase tracking-widest text-brass-600 font-bold block mb-1">INTERACTIVE PLANNER</span>
+            <h3 class="font-serif text-3xl font-bold text-charcoal-900">Configure Your Ideal Session</h3>
+            <p class="text-xs text-charcoal-600 mt-1 font-light">Customize attendee capacity, venue mode, and format to generate a direct booking summary.</p>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+            
+            <div class="lg:col-span-7 space-y-6">
+              
+              <!-- Format Selector -->
+              <div>
+                <label class="block text-xs font-mono uppercase tracking-wider text-charcoal-700 font-bold mb-2">1. Select Format</label>
+                <div class="grid grid-cols-2 gap-2 text-xs">
+                  <button type="button" onclick="setCalcProtocol('Residential Clearing')" class="calc-btn p-3 rounded-xl border border-sage-800 bg-sage-100 text-charcoal-900 font-semibold text-left transition-all" data-proto="Residential Clearing">
+                    🏠 Residential Clearing
+                  </button>
+                  <button type="button" onclick="setCalcProtocol('Corporate & Office')" class="calc-btn p-3 rounded-xl border border-charcoal-900/10 bg-oat-100 text-charcoal-700 font-semibold text-left transition-all" data-proto="Corporate & Office">
+                    🏢 Corporate Office
+                  </button>
+                  <button type="button" onclick="setCalcProtocol('Emotional Reset')" class="calc-btn p-3 rounded-xl border border-charcoal-900/10 bg-oat-100 text-charcoal-700 font-semibold text-left transition-all" data-proto="Emotional Reset">
+                    💜 Emotional Reset
+                  </button>
+                  <button type="button" onclick="setCalcProtocol('Routine Maintenance')" class="calc-btn p-3 rounded-xl border border-charcoal-900/10 bg-oat-100 text-charcoal-700 font-semibold text-left transition-all" data-proto="Routine Maintenance">
+                    🔄 Routine Care
+                  </button>
+                </div>
+              </div>
+
+              <!-- Attendee Slider -->
+              <div>
+                <div class="flex items-center justify-between text-xs font-mono text-charcoal-700 mb-2">
+                  <span class="font-bold">2. Group Capacity:</span>
+                  <span id="slider-desc" class="font-bold text-sage-800">5 People (Intimate Group)</span>
+                </div>
+                <input type="range" id="capacity-slider" min="1" max="50" value="5" oninput="updateCapacity(this.value)" class="w-full h-2 bg-oat-300 rounded-lg appearance-none cursor-pointer accent-sage-800">
+                <div class="flex justify-between text-[10px] font-mono text-charcoal-500 mt-1">
+                  <span>1 (Private 1-on-1)</span>
+                  <span>25 (Studio)</span>
+                  <span>50 (Hall)</span>
+                </div>
+              </div>
+
+              <!-- Mode Switcher -->
+              <div>
+                <label class="block text-xs font-mono uppercase tracking-wider text-charcoal-700 font-bold mb-2">3. Session Venue Mode</label>
+                <div class="grid grid-cols-2 gap-2 text-xs">
+                  <button type="button" onclick="setCalcMode('In-Person (On-Site)')" class="mode-btn p-3 rounded-xl border border-sage-800 bg-sage-100 text-charcoal-900 font-semibold text-center transition-all" data-mode="In-Person (On-Site)">
+                    📍 In-Person (On-Site)
+                  </button>
+                  <button type="button" onclick="setCalcMode('Virtual Livestream')" class="mode-btn p-3 rounded-xl border border-charcoal-900/10 bg-oat-100 text-charcoal-700 font-semibold text-center transition-all" data-mode="Virtual Livestream">
+                    💻 Virtual Livestream
+                  </button>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Dynamic Summary Box -->
+            <div class="lg:col-span-5 bg-oat-100 rounded-2xl p-6 border border-charcoal-900/10 flex flex-col justify-between space-y-6">
+              <div>
+                <div class="text-xs font-mono uppercase tracking-wider text-brass-700 font-bold pb-3 border-b border-charcoal-900/10">
+                  Estimated Session Profile
+                </div>
+                
+                <div class="space-y-3 py-4 text-xs">
+                  <div>
+                    <span class="text-charcoal-500 block">Selected Protocol:</span>
+                    <span id="sum-proto-text" class="font-bold text-charcoal-900 text-sm">Residential Clearing</span>
+                  </div>
+                  <div>
+                    <span class="text-charcoal-500 block">Capacity & Duration:</span>
+                    <span id="sum-cap-text" class="font-bold text-charcoal-900 text-sm">5 Attendees · 45–60 min</span>
+                  </div>
+                  <div>
+                    <span class="text-charcoal-500 block">Delivery Format:</span>
+                    <span id="sum-mode-text" class="font-bold text-sage-800 text-sm">In-Person (On-Site)</span>
+                  </div>
+                </div>
+
+                <div class="p-3 rounded-xl bg-sage-50 border border-sage-500/20 text-[11px] text-sage-800 leading-relaxed">
+                  ✓ Includes setup of 10 sacred instruments, room-by-room acoustic vibration, and harmonic sealing.
+                </div>
+              </div>
+
+              <a id="calc-whatsapp-btn" href="#" target="_blank" class="w-full py-3.5 rounded-full bg-sage-800 hover:bg-sage-900 text-white font-semibold text-xs uppercase tracking-wider shadow-sm transition-all flex items-center justify-center gap-2">
+                <i data-lucide="message-circle" class="w-4 h-4"></i>
+                <span>Confirm on WhatsApp</span>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Session at a Glance Details (Verbatim from Brochure Page 4) -->
+        <div class="card-sage rounded-3xl p-8 sm:p-10 text-center mb-12">
+          <span class="text-xs uppercase tracking-widest text-sage-800 font-bold block mb-2">PRACTICAL DETAILS</span>
+          <h3 class="font-serif text-2xl font-bold text-charcoal-900 mb-6">Session at a Glance</h3>
+          
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-6 pt-2">
+            <div class="bg-oat-100 p-5 rounded-2xl border border-charcoal-900/5">
+              <div class="font-serif text-3xl font-bold text-charcoal-900">45–60 min</div>
+              <div class="text-xs text-charcoal-600 uppercase tracking-wider mt-1">Duration</div>
+            </div>
+            <div class="bg-oat-100 p-5 rounded-2xl border border-charcoal-900/5">
+              <div class="font-serif text-3xl font-bold text-charcoal-900">5–50 people</div>
+              <div class="text-xs text-charcoal-600 uppercase tracking-wider mt-1">Group Size</div>
+            </div>
+            <div class="bg-oat-100 p-5 rounded-2xl border border-charcoal-900/5">
+              <div class="font-serif text-3xl font-bold text-charcoal-900">10 Instruments</div>
+              <div class="text-xs text-charcoal-600 uppercase tracking-wider mt-1">Sound Journey</div>
+            </div>
+            <div class="bg-oat-100 p-5 rounded-2xl border border-charcoal-900/5">
+              <div class="font-serif text-3xl font-bold text-charcoal-900">Any Quiet Space</div>
+              <div class="text-xs text-charcoal-600 uppercase tracking-wider mt-1">Venue</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Next Chapter Flow -->
+        <div class="flex items-center justify-between pt-8 border-t border-charcoal-900/10">
+          <button onclick="navigate('instruments')" class="text-xs font-semibold text-charcoal-600 hover:text-charcoal-900 flex items-center gap-1.5 uppercase tracking-wider">
+            <i data-lucide="arrow-left" class="w-3.5 h-3.5"></i> <span>Back: 10 Instruments</span>
+          </button>
+          <button onclick="navigate('science')" class="text-xs font-semibold text-sage-800 hover:text-sage-900 flex items-center gap-1.5 uppercase tracking-wider">
+            <span>Next: The Science of Sound ➔</span>
+          </button>
+        </div>
+
+      </section>
+
+    </div>
+
+    <!-- ==================== PAGE 6: THE SCIENCE ==================== -->
+    <div id="page-science" class="page-view">
+      
+      <!-- Page Header -->
+      <section class="py-16 sm:py-20 bg-oat-200/60 border-b border-charcoal-900/10 px-4 sm:px-6">
+        <div class="max-w-4xl mx-auto text-center">
+          <span class="text-xs font-mono uppercase tracking-widest text-indigoZen-700 block mb-2 font-bold">PAGE 05 · NEURO-ACOUSTIC PHYSICS</span>
+          <h1 class="font-serif text-4xl sm:text-6xl text-charcoal-900 mb-4 font-normal">
+            How sound supports relaxation
+          </h1>
+          <p class="text-sm sm:text-base text-charcoal-600 max-w-2xl mx-auto font-light">
+            Sound healing relies on the physics of sound combined with the body's physiological response to vibration. When sound waves travel through the air and reach the body, they can interact with mechanical, sensory and neural processes.
+          </p>
+        </div>
+      </section>
+
+      <!-- 4 Science Columns (Verbatim from Brochure Page 3) -->
+      <section class="py-20 px-4 sm:px-6 lg:px-12 max-w-5xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+          
+          <!-- 1. Frequency Following Response -->
+          <div class="card-sage rounded-3xl p-8">
+            <span class="text-xs font-mono font-bold text-sage-800 uppercase tracking-widest block mb-2">FREQUENCY FOLLOWING RESPONSE</span>
+            <h3 class="font-serif text-2xl font-bold text-charcoal-900 mb-3">Neural Entrainment</h3>
+            <p class="text-sm text-charcoal-700 leading-relaxed font-light">
+              Rhythmic, sustained sounds can influence the timing of neural activity and may support a shift from highly alert states toward calmer Alpha- or Theta-associated patterns.
+            </p>
+          </div>
+
+          <!-- 2. Vagal & Autonomic Regulation -->
+          <div class="card-brass rounded-3xl p-8">
+            <span class="text-xs font-mono font-bold text-brass-700 uppercase tracking-widest block mb-2">VAGAL & AUTONOMIC REGULATION</span>
+            <h3 class="font-serif text-2xl font-bold text-charcoal-900 mb-3">The Body's Stress Off-Switch</h3>
+            <p class="text-sm text-charcoal-700 leading-relaxed font-light">
+              Slow, calming sound and breathing may support parasympathetic activity and relaxation, often associated with reduced stress responses.
+            </p>
+          </div>
+
+          <!-- 3. Vibrational Fluid Dynamics -->
+          <div class="card-terracotta rounded-3xl p-8">
+            <span class="text-xs font-mono font-bold text-terracotta-700 uppercase tracking-widest block mb-2">VIBRATIONAL FLUID DYNAMICS</span>
+            <h3 class="font-serif text-2xl font-bold text-charcoal-900 mb-3">Cellular Wave Massage</h3>
+            <p class="text-sm text-charcoal-700 leading-relaxed font-light">
+              Sound travels through air and body tissues, including fluids and bone. At appropriate intensities, vibration can feel like a gentle physical stimulus and may help ease muscular tension.
+            </p>
+          </div>
+
+          <!-- 4. Neurochemical Shift -->
+          <div class="card-indigo rounded-3xl p-8">
+            <span class="text-xs font-mono font-bold text-indigoZen-700 uppercase tracking-widest block mb-2">NEUROCHEMICAL SHIFT</span>
+            <h3 class="font-serif text-2xl font-bold text-charcoal-900 mb-3">Biochemical Reset</h3>
+            <p class="text-sm text-charcoal-700 leading-relaxed font-light">
+              Deep relaxation can influence brain reward and stress systems. Sound-based relaxation may be associated with changes in endorphins, dopamine, serotonin and cortisol.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Brainwave Shift Cycle Progress Bar (From 1st Design) -->
+        <div class="card-oat rounded-3xl p-8 sm:p-10 border border-charcoal-900/10 mb-16">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+            <div>
+              <h4 class="font-serif text-2xl font-bold text-charcoal-900">Brainwave Frequency Transition Cycle</h4>
+              <p class="text-xs text-charcoal-600 font-light mt-0.5">Observed during typical 45–60 min sound bath</p>
+            </div>
+            <div class="flex items-center gap-3 text-xs font-mono">
+              <span class="flex items-center gap-1.5 text-terracotta-700"><span class="w-2 h-2 rounded-full bg-terracotta-500"></span> Beta (Alert)</span>
+              <span class="flex items-center gap-1.5 text-brass-700"><span class="w-2 h-2 rounded-full bg-brass-500"></span> Alpha (Calm)</span>
+              <span class="flex items-center gap-1.5 text-indigoZen-700"><span class="w-2 h-2 rounded-full bg-indigoZen-500"></span> Theta (Deep)</span>
+            </div>
+          </div>
+
+          <div class="w-full bg-oat-200 rounded-xl p-4 space-y-3 border border-charcoal-900/5">
+            <div class="flex justify-between text-xs text-charcoal-600 font-mono font-semibold">
+              <span>0–15 min (Arrival)</span>
+              <span>15–45 min (Deep Resonance)</span>
+              <span>45–60 min (Integration)</span>
+            </div>
+            <div class="h-3 w-full bg-oat-300 rounded-full overflow-hidden flex">
+              <div class="w-1/4 bg-terracotta-500"></div>
+              <div class="w-1/2 bg-gradient-to-r from-brass-500 to-indigoZen-500"></div>
+              <div class="w-1/4 bg-sage-500"></div>
+            </div>
+            <div class="flex justify-between text-[11px] text-charcoal-500 font-light">
+              <span>High Mental Activity</span>
+              <span>Subconscious Release & Muscular Ease</span>
+              <span>Stillness, Sealing & Clarity</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 Stages: What to Expect (Verbatim from Brochure Page 3) -->
+        <div class="card-oat rounded-3xl p-8 sm:p-12 border border-charcoal-900/10 mb-12">
+          <div class="text-center mb-8">
+            <span class="text-xs uppercase tracking-widest text-brass-600 font-bold block mb-1">THE EXPERIENCE</span>
+            <h3 class="font-serif text-3xl font-normal text-charcoal-900">What to Expect</h3>
+          </div>
+          
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+            <div class="bg-oat-100 p-6 rounded-2xl border border-charcoal-900/5">
+              <div class="font-serif text-4xl text-brass-600 font-bold mb-2">01</div>
+              <h4 class="font-serif text-xl font-bold text-charcoal-900 mb-1">CONSULTATION</h4>
+              <p class="text-xs text-charcoal-600 font-light leading-relaxed">
+                A brief discussion about the space, its history and your intention.
+              </p>
+            </div>
+            <div class="bg-oat-100 p-6 rounded-2xl border border-charcoal-900/5">
+              <div class="font-serif text-4xl text-sage-700 font-bold mb-2">02</div>
+              <h4 class="font-serif text-xl font-bold text-charcoal-900 mb-1">THE CLEANSING</h4>
+              <p class="text-xs text-charcoal-600 font-light leading-relaxed">
+                A mindful sound journey through rooms, corners and transitions.
+              </p>
+            </div>
+            <div class="bg-oat-100 p-6 rounded-2xl border border-charcoal-900/5">
+              <div class="font-serif text-4xl text-terracotta-700 font-bold mb-2">03</div>
+              <h4 class="font-serif text-xl font-bold text-charcoal-900 mb-1">SEALING THE SPACE</h4>
+              <p class="text-xs text-charcoal-600 font-light leading-relaxed">
+                Harmonic alignment to anchor the renewed atmosphere.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Next Chapter Flow -->
+        <div class="flex items-center justify-between pt-8 border-t border-charcoal-900/10">
+          <button onclick="navigate('services')" class="text-xs font-semibold text-charcoal-600 hover:text-charcoal-900 flex items-center gap-1.5 uppercase tracking-wider">
+            <i data-lucide="arrow-left" class="w-3.5 h-3.5"></i> <span>Back: Services</span>
+          </button>
+          <button onclick="navigate('contact')" class="text-xs font-semibold text-sage-800 hover:text-sage-900 flex items-center gap-1.5 uppercase tracking-wider">
+            <span>Next: Book Your Session ➔</span>
+          </button>
+        </div>
+
+      </section>
+
+    </div>
+
+    <!-- ==================== PAGE 7: BOOKING & CONTACT ==================== -->
+    <div id="page-contact" class="page-view">
+      
+      <!-- Page Header -->
+      <section class="py-16 sm:py-20 bg-oat-200/60 border-b border-charcoal-900/10 px-4 sm:px-6">
+        <div class="max-w-4xl mx-auto text-center">
+          <span class="text-xs font-mono uppercase tracking-widest text-sage-700 block mb-2 font-bold">PAGE 06 · RESERVATIONS</span>
+          <h1 class="font-serif text-4xl sm:text-6xl text-charcoal-900 mb-4 font-normal">
+            Book Your Session
+          </h1>
+          <p class="text-sm sm:text-base text-charcoal-600 max-w-xl mx-auto font-light">
+            Connect directly with Gurulakshmi via WhatsApp with your preferred dates, group size, and location.
+          </p>
+        </div>
+      </section>
+
+      <!-- Booking Card -->
+      <section class="py-16 px-4 sm:px-6 max-w-3xl mx-auto">
+        <div class="card-sage rounded-3xl p-8 sm:p-12 shadow-sm">
+          
+          <div class="space-y-6 mb-8">
+            <div>
+              <label class="block text-xs font-mono uppercase tracking-wider text-charcoal-700 mb-2 font-bold">1. Select Clearing Format</label>
+              <select id="book-format" onchange="updateBookingMsg()" class="w-full p-3.5 rounded-xl bg-oat-100 border border-charcoal-900/10 text-sm text-charcoal-900 focus:outline-none">
+                <option value="Residential Clearing">Residential Clearing (New home / Pre-owned / Family)</option>
+                <option value="Corporate & Office Cleansing">Corporate & Office Cleansing (Workplace reset)</option>
+                <option value="Emotional Reset Cleansing">Emotional Reset Cleansing (Post-loss / Illness / Transition)</option>
+                <option value="Routine Maintenance">Routine Maintenance (Seasonal & Equinox renewal)</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-xs font-mono uppercase tracking-wider text-charcoal-700 mb-2 font-bold">2. Location / Setting</label>
+              <select id="book-setting" onchange="updateBookingMsg()" class="w-full p-3.5 rounded-xl bg-oat-100 border border-charcoal-900/10 text-sm text-charcoal-900 focus:outline-none">
+                <option value="In-Person (On-Site)">In-Person (On-Site at your home or office)</option>
+                <option value="Virtual Livestream">Virtual Livestream (Live remote session)</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-xs font-mono uppercase tracking-wider text-charcoal-700 mb-2 font-bold">3. Your Name & City</label>
+              <input type="text" id="book-name" placeholder="e.g. Sudeep, Chennai" oninput="updateBookingMsg()" class="w-full p-3.5 rounded-xl bg-oat-100 border border-charcoal-900/10 text-sm text-charcoal-900 focus:outline-none" />
+            </div>
+          </div>
+
+          <a id="whatsapp-btn" href="#" target="_blank" class="w-full py-4 rounded-full bg-sage-800 hover:bg-sage-900 text-white font-semibold text-sm flex items-center justify-center gap-2.5 shadow-md transition-all hover:scale-[1.01]">
+            <i data-lucide="message-circle" class="w-5 h-5"></i>
+            <span>Chat & Confirm on WhatsApp</span>
+          </a>
+
+          <div class="pt-6 mt-6 border-t border-charcoal-900/10 flex flex-col sm:flex-row items-center justify-between text-xs text-charcoal-700 gap-2">
+            <span class="font-medium">Direct Phone: +91 70103 33900</span>
+            <span class="font-medium">Email: gurulakshmi.anandkumar@gmail.com</span>
+            <span class="font-medium">Instagram: @guru_sound_healer</span>
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+
+  </main>
+
+  <!-- ==================== FLOATING SAAS ACTION BAR (From 1st Design, in Warm Theme) ==================== -->
+  <div class="fixed bottom-6 right-6 z-50 flex items-center gap-2">
+    
+    <!-- Audio Mute / Stop Quick Pill -->
+    <button onclick="stopAudio()" id="float-audio-pill" class="hidden items-center gap-2 px-4 py-2.5 rounded-full card-sage text-xs font-mono text-sage-900 shadow-lg border border-sage-500/30">
+      <span class="w-2 h-2 rounded-full bg-sage-600 animate-ping"></span>
+      <span id="float-freq-text" class="font-bold">432 Hz</span>
+      <i data-lucide="square" class="w-3 h-3 text-terracotta-700"></i>
+    </button>
+
+    <!-- WhatsApp Floating Action -->
+    <a href="https://wa.me/917010333900?text=Hello%20Gurulakshmi,%20I%20would%20like%20to%20book%20a%20Sound%20Cleansing%20session." target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 px-4 py-3 rounded-full bg-sage-800 hover:bg-sage-900 text-white font-semibold text-xs shadow-xl transition-all hover:scale-105">
+      <i data-lucide="message-circle" class="w-4 h-4"></i>
+      <span class="hidden sm:inline">WhatsApp Booking</span>
+    </a>
+
+    <!-- Back to Top Button -->
+    <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="w-10 h-10 rounded-full bg-oat-200 hover:bg-oat-300 border border-charcoal-900/10 text-charcoal-800 flex items-center justify-center transition-all shadow-sm" aria-label="Back to top">
+      <i data-lucide="arrow-up" class="w-4 h-4"></i>
+    </button>
+  </div>
+
+  <!-- ==================== RESPONSIVE MULTI-PAGE FOOTER ==================== -->
+  <footer class="bg-oat-200/90 border-t border-charcoal-900/10 py-12 px-4 sm:px-6 lg:px-12 mt-16">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+      <div>
+        <div class="font-serif text-2xl font-bold text-charcoal-900">Gurulakshmi</div>
+        <p class="text-xs text-charcoal-600 mt-1">Sound Healing & Space Cleansing Practitioner · Harmonizing Environments, Elevating Vibrations</p>
+      </div>
+
+      <div class="flex flex-wrap items-center justify-center gap-5 text-xs font-medium text-charcoal-700">
+        <button onclick="navigate('home')" class="hover:text-charcoal-900">Home</button>
+        <button onclick="navigate('practitioner')" class="hover:text-charcoal-900">Practitioner</button>
+        <button onclick="navigate('practice')" class="hover:text-charcoal-900">Practice</button>
+        <button onclick="navigate('instruments')" class="hover:text-charcoal-900">Instruments</button>
+        <button onclick="navigate('services')" class="hover:text-charcoal-900">Services</button>
+        <button onclick="navigate('science')" class="hover:text-charcoal-900">Science</button>
+        <button onclick="navigate('contact')" class="hover:text-charcoal-900">Book</button>
+      </div>
+
+      <div class="text-xs text-charcoal-500 font-light">
+        © 2026 Gurulakshmi · All Rights Reserved
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== CLIENT ROUTING & AUDIO ENGINE SCRIPT ==================== -->
+  <script>
+    lucide.createIcons();
+
+    // Multi-Page Client Routing
+    const pages = ['home', 'practitioner', 'practice', 'instruments', 'services', 'science', 'contact'];
+
+    function navigate(pageId) {
+      if (!pages.includes(pageId)) pageId = 'home';
+
+      // Hide all pages
+      document.querySelectorAll('.page-view').forEach(p => p.classList.remove('active'));
+
+      // Show target page
+      const targetPage = document.getElementById('page-' + pageId);
+      if (targetPage) {
+        targetPage.classList.add('active');
+      }
+
+      // Update navbar active states
+      document.querySelectorAll('.nav-tab').forEach(tab => {
+        tab.className = 'nav-tab px-4 py-2 rounded-full text-xs font-medium text-charcoal-700 hover:text-charcoal-900 hover:bg-oat-100/50 transition-all';
+      });
+
+      const activeNavBtn = document.getElementById('nav-btn-' + pageId);
+      if (activeNavBtn) {
+        activeNavBtn.className = 'nav-tab px-4 py-2 rounded-full text-xs font-semibold tracking-wide transition-all bg-sage-800 text-white shadow-sm';
+      }
+
+      // Update URL hash without reload
+      window.location.hash = pageId;
+
+      // Smooth scroll to top of page
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+
+      // Re-trigger icon creation for dynamic views
+      lucide.createIcons();
+    }
+
+    // Handle browser back/forward buttons
+    window.addEventListener('hashchange', () => {
+      const hash = window.location.hash.replace('#', '') || 'home';
+      navigate(hash);
+    });
+
+    // Check initial hash on load
+    window.addEventListener('DOMContentLoaded', () => {
+      const initialHash = window.location.hash.replace('#', '') || 'home';
+      navigate(initialHash);
+      updateBookingMsg();
+      updateCalcQuote();
+    });
+
+    // Mobile Hamburger Menu Toggle
+    function toggleMobileMenu() {
+      const menu = document.getElementById('mobile-menu');
+      menu.classList.toggle('hidden');
+    }
+
+    // Web Audio Synthesizer Engine
+    let audioCtx = null;
+    let currentOsc = null;
+    let currentGain = null;
+    let masterGain = null;
+    let isPlaying = false;
+    let animId = null;
+
+    function initAudio() {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        masterGain = audioCtx.createGain();
+        masterGain.gain.setValueAtTime(0.4, audioCtx.currentTime);
+        masterGain.connect(audioCtx.destination);
+      }
+      if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+      }
+    }
+
+    function setVolume(val) {
+      if (masterGain && audioCtx) {
+        masterGain.gain.setValueAtTime(parseFloat(val), audioCtx.currentTime);
+      }
+    }
+
+    function playTone(freq, name) {
+      initAudio();
+      stopAudio();
+
+      isPlaying = true;
+      currentOsc = audioCtx.createOscillator();
+      currentGain = audioCtx.createGain();
+
+      currentOsc.type = freq <= 120 ? 'triangle' : 'sine';
+      currentOsc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+
+      currentGain.gain.setValueAtTime(0.001, audioCtx.currentTime);
+      currentGain.gain.exponentialRampToValueAtTime(0.4, audioCtx.currentTime + 0.3);
+
+      currentOsc.connect(currentGain);
+      currentGain.connect(masterGain);
+      currentOsc.start();
+
+      document.getElementById('player-title').textContent = name;
+      document.getElementById('player-stop').disabled = false;
+      document.getElementById('sound-empty').style.display = 'none';
+
+      // Navbar audio indicator
+      const navAudio = document.getElementById('nav-audio-indicator');
+      if (navAudio) {
+        navAudio.classList.remove('hidden');
+        navAudio.classList.add('flex');
+        document.getElementById('nav-freq-text').textContent = freq + 'Hz';
+      }
+
+      // Floating audio pill
+      const floatPill = document.getElementById('float-audio-pill');
+      if (floatPill) {
+        floatPill.classList.remove('hidden');
+        floatPill.classList.add('flex');
+        document.getElementById('float-freq-text').textContent = freq + ' Hz';
+      }
+
+      document.querySelectorAll('.tone-card').forEach(btn => {
+        if (btn.getAttribute('data-hz') == freq) {
+          btn.classList.add('bg-sage-200', 'border-sage-700');
+        } else {
+          btn.classList.remove('bg-sage-200', 'border-sage-700');
+        }
+      });
+
+      renderWave();
+    }
+
+    function stopAudio() {
+      if (currentOsc && currentGain && audioCtx) {
+        try {
+          currentGain.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + 0.2);
+          setTimeout(() => {
+            if (currentOsc) {
+              currentOsc.stop();
+              currentOsc.disconnect();
+              currentOsc = null;
+            }
+          }, 200);
+        } catch(e) {}
+      }
+
+      isPlaying = false;
+      document.getElementById('player-title').textContent = 'Click any instrument to listen';
+      document.getElementById('player-stop').disabled = true;
+      document.getElementById('sound-empty').style.display = 'block';
+
+      const navAudio = document.getElementById('nav-audio-indicator');
+      if (navAudio) {
+        navAudio.classList.add('hidden');
+        navAudio.classList.remove('flex');
+      }
+
+      const floatPill = document.getElementById('float-audio-pill');
+      if (floatPill) {
+        floatPill.classList.add('hidden');
+        floatPill.classList.remove('flex');
+      }
+
+      document.querySelectorAll('.tone-card').forEach(btn => {
+        btn.classList.remove('bg-sage-200', 'border-sage-700');
+      });
+
+      if (animId) cancelAnimationFrame(animId);
+      clearCanvas();
+    }
+
+    const canvas = document.getElementById('sound-canvas');
+    const ctx = canvas.getContext('2d');
+
+    function resizeCanvas() {
+      if (canvas && canvas.parentElement) {
+        canvas.width = canvas.parentElement.clientWidth;
+        canvas.height = canvas.parentElement.clientHeight;
+      }
+    }
+    window.addEventListener('resize', resizeCanvas);
+    resizeCanvas();
+
+    function clearCanvas() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+    }
+
+    let phase = 0;
+    function renderWave() {
+      if (!isPlaying) return;
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      ctx.lineWidth = 2.5;
+      ctx.strokeStyle = '#527764';
+      ctx.beginPath();
+
+      const sliceWidth = canvas.width / 60;
+      let x = 0;
+
+      for (let i = 0; i < 60; i++) {
+        const y = (canvas.height / 2) + Math.sin(i * 0.15 + phase) * (canvas.height / 3);
+        if (i === 0) ctx.moveTo(x, y);
+        else ctx.lineTo(x, y);
+        x += sliceWidth;
+      }
+
+      ctx.stroke();
+      phase += 0.08;
+      animId = requestAnimationFrame(renderWave);
+    }
+
+    // Instrument Filter Tabs
+    function filterInst(cat) {
+      document.querySelectorAll('.inst-pill').forEach(btn => {
+        if (btn.getAttribute('data-cat') === cat) {
+          btn.className = 'inst-pill px-4 py-1.5 rounded-full text-xs font-semibold bg-sage-800 text-white';
+        } else {
+          btn.className = 'inst-pill px-4 py-1.5 rounded-full text-xs font-semibold bg-oat-200 text-charcoal-700 hover:bg-oat-300';
+        }
+      });
+
+      document.querySelectorAll('.inst-item').forEach(card => {
+        if (cat === 'all' || card.getAttribute('data-cat') === cat) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    // Interactive Configurator Logic (From 1st Design)
+    let calcProto = 'Residential Clearing';
+    let calcCapacity = 5;
+    let calcMode = 'In-Person (On-Site)';
+
+    function setCalcProtocol(p) {
+      calcProto = p;
+      document.querySelectorAll('.calc-btn').forEach(btn => {
+        if (btn.getAttribute('data-proto') === p) {
+          btn.className = 'calc-btn p-3 rounded-xl border border-sage-800 bg-sage-100 text-charcoal-900 font-semibold text-left transition-all';
+        } else {
+          btn.className = 'calc-btn p-3 rounded-xl border border-charcoal-900/10 bg-oat-100 text-charcoal-700 font-semibold text-left transition-all';
+        }
+      });
+      document.getElementById('sum-proto-text').textContent = p;
+      updateCalcQuote();
+    }
+
+    function updateCapacity(val) {
+      calcCapacity = parseInt(val);
+      let label = '1 Person (Private 1-on-1)';
+      if (calcCapacity > 1 && calcCapacity <= 10) label = calcCapacity + ' People (Intimate Group)';
+      else if (calcCapacity > 10 && calcCapacity <= 30) label = calcCapacity + ' People (Studio / Family)';
+      else if (calcCapacity > 30) label = calcCapacity + ' People (Corporate Hall / Townhall)';
+
+      document.getElementById('slider-desc').textContent = label;
+      document.getElementById('sum-cap-text').textContent = `${calcCapacity} Attendees · 45–60 min`;
+      updateCalcQuote();
+    }
+
+    function setCalcMode(m) {
+      calcMode = m;
+      document.querySelectorAll('.mode-btn').forEach(btn => {
+        if (btn.getAttribute('data-mode') === m) {
+          btn.className = 'mode-btn p-3 rounded-xl border border-sage-800 bg-sage-100 text-charcoal-900 font-semibold text-center transition-all';
+        } else {
+          btn.className = 'mode-btn p-3 rounded-xl border border-charcoal-900/10 bg-oat-100 text-charcoal-700 font-semibold text-center transition-all';
+        }
+      });
+      document.getElementById('sum-mode-text').textContent = m;
+      updateCalcQuote();
+    }
+
+    function updateCalcQuote() {
+      const msg = `Hello Gurulakshmi,\n\nI configured a session on your website:\n- Format: ${calcProto}\n- Capacity: ${calcCapacity} attendees\n- Mode: ${calcMode}\n- Duration: 45–60 Minutes\n\nPlease let me know your availability!`;
+      document.getElementById('calc-whatsapp-btn').href = `https://wa.me/917010333900?text=${encodeURIComponent(msg)}`;
+    }
+
+    // Direct Booking Form on Page 7
+    function updateBookingMsg() {
+      const format = document.getElementById('book-format').value;
+      const setting = document.getElementById('book-setting').value;
+      const name = document.getElementById('book-name').value.trim();
+
+      let msg = `Hello Gurulakshmi,\n\nI would like to inquire about booking a session:\n- Format: ${format}\n- Setting: ${setting}`;
+      if (name) msg += `\n- Name & Location: ${name}`;
+      msg += `\n\nPlease let me know your available slots!`;
+
+      document.getElementById('whatsapp-btn').href = `https://wa.me/917010333900?text=${encodeURIComponent(msg)}`;
+    }
+  </script>
+</body>
+</html>
